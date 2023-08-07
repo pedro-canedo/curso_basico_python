@@ -1,16 +1,11 @@
-#  Exemplos práticos de código
-# Exemplo 1: Calculadora de IMC
+#calculo de imc e igual a peso dividido por altura ao quadrado
 
-
-
-peso = float(input("Digite seu peso: "))
+peso = float(input("Digite seu peso: ")) 
 altura = float(input("Digite sua altura: "))
 
-# imc e igual a peso dividido por altura ao quadrado
-imc = peso / (altura ** 2)
+calcula_imc = peso / (altura * altura)
 
-print(f"Seu IMC é {imc:.2f}")
-#o :.2f é para formatar o número com duas casas decimais
-#sobre peso
-#dentro peso
-#abaixo do peso
+print(f"Seu imc é {calcula_imc:.2f}")
+
+
+#se eu estou ou nao acima do peso e qual e o meu peso ideal
